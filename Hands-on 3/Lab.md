@@ -15,6 +15,7 @@ In this lab, you will walk through
 - [PnP SP Starter Kit](https://github.com/SharePoint/sp-starter-kit)
 - [Office UI](https://developer.microsoft.com/en-us/fabric#/components/checkbox)
 - [PnP Provisioning](https://github.com/SharePoint/PnP-Provisioning-Schema/blob/master/ProvisioningSchema-2018-07.md)
+- [Site script available actions JSON schema](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-json-schema)
 
 # Install and setup Starter Kit
 
