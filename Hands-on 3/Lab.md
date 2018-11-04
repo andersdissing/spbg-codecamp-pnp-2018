@@ -16,6 +16,8 @@ In this lab, you will walk through
 - [Office UI](https://developer.microsoft.com/en-us/fabric#/components/checkbox)
 - [PnP Provisioning](https://github.com/SharePoint/PnP-Provisioning-Schema/blob/master/ProvisioningSchema-2018-07.md)
 - [Site script available actions JSON schema](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-json-schema)
+- [Site Designs Studio](https://github.com/SharePoint/sp-dev-solutions/tree/master/solutions/SiteDesignsStudio)
+- [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
 
 # Install and setup Starter Kit
 
@@ -40,16 +42,30 @@ In this lab, you will walk through
 
 ## Preparing your tenant for the PnP SharePoint Starter Kit
 
-- https://github.com/SharePoint/sp-starter-kit/blob/master/documentation/tenant-settings.md#preparing-your-tenant-for-the-pnp-sharepoint-starter-kit
+- Open Outlook (web access)
+- [Create PnP-CollabFooter-MyLinks field](https://github.com/SharePoint/sp-starter-kit/blob/master/documentation/tenant-settings.md#preparing-your-tenant-for-the-pnp-sharepoint-starter-kit)
+- Create Appcatelog
+- Set as "Targeted release for everyone" option (also known as First Release) (Startside > Organisationsprofil > Indstillinger for frigivelse > Frigivelsessporing: Målrettet udgivelse til alle)
+- Add used tenant administrator account as Term Store Administrator in the Taxonomy Term Store
+- Install PnP Online PowerShell
+
+ ````PowerShell
+Install-Module SharePointPnPPowerShellOnline
+ ````
+Or update
+ ````PowerShell
+Update-Module SharePointPnPPowerShell*
+ ````
+
 
 ## Connect and Provisioning template
 
 - In PowerShell cmd or ISE
 
-```bash
+ ````bash
 Connect-PnPOnline https://ZXY.sharepoint.com
 Apply-PnPProvisioningHierarchy -Path starterkit.pnp
-```
+ ````
 
 ## Test
 
@@ -166,4 +182,4 @@ Apply-PnPProvisioningHierarchy -Path starterkit.pnp
    8. A pane indicates that your script is being applied. When it is done, choose **View updated site**. 
    9. You will see the custom list on the page. 
 
-## Site designs and site scripts with Azure functions](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-pnp-provisioning)
+## [Site designs and site scripts with Azure functions](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-pnp-provisioning)
