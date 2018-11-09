@@ -8,8 +8,6 @@ In this lab, you will walk through
 
 ------
 
-[TOC]
-
 ## Links
 
 - [PnP SP Starter Kit](https://github.com/SharePoint/sp-starter-kit)
