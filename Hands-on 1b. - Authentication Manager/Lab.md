@@ -137,7 +137,7 @@
         2. Answer Y a lot of times
     3. Run
         ```powershell
-        New-Item c:\PnP -Type Directory`
+        New-Item c:\PnP -Type Directory
         ```
     4. Run 
         ```powershell

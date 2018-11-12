@@ -74,7 +74,7 @@
 2. Double click error
 3. Change catch statement to just be
     ```
-    cacch
+    catch
     ```
 
 ### Run and Verify
