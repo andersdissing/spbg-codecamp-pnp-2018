@@ -1,15 +1,15 @@
 # Agenda
 - 900: Velkommen og border rundt. 30' min
-- 930: Hvad er Office 365 Dev Patterns & Practices (PnP) og basis operationer. 20  min
+- 930: Hvad er Office 365 Dev Patterns & Practices (PnP) og basis operationer. 20 min
 - 950: Hands-on 1a. 30' min
-- 1020: Authentication Manager. 10  min
-- 1030: Hands-on 1b. 45  min
-- 1115: PnP JavaScript. 15  min
-- 1130: Hands-on 2. 30  min
-- 1200: Frokost. 60  min
-- 1300: SharePoint Starter Kit. 90  min
-- 1430: Hands-on 3. 60  min
-- 1530: Intro til SPFx extensions samt debugging af SPFx extensions. 30  min
+- 1020: Authentication Manager. 10 min
+- 1030: Hands-on 1b. 45 min
+- 1115: PnP JavaScript. 15 min
+- 1130: Hands-on 2. 30 min
+- 1200: Frokost. 60 min
+- 1300: SharePoint Starter Kit. 90 min
+- 1430: Hands-on 3. 60 min
+- 1530: Intro til SPFx extensions samt debugging af SPFx extensions. 30 min
 - 1600: Hands-on 4. 60' min.
 - 1700: Øl?
 
@@ -18,8 +18,8 @@
 - Sikre at App Catalog er oprettet på Office 365 tenant, (Step 1 af https://docs.microsoft.com/en-us/sharepoint/use-app-catalog)
 - Visual Studio 2017 (community version eller større)
 - Visual Studio Code https://code.visualstudio.com/
-- [Node.js](https://nodejs.org/) LTS:  Node is required to setup, build, and run the project. 
-- [SharePoint Yeoman      Generator](https://www.npmjs.com/package/@microsoft/generator-sharepoint) (Version 1.6): The SharePoint Yeoman Generator is used to create the SPFX webparts. Installers via kommandoen:
+- [Node.js](https://nodejs.org/) LTS:  Node is required to setup, build, and run the project.
+- [SharePoint Yeoman Generator](https://www.npmjs.com/package/@microsoft/generator-sharepoint) (Version 1.6): The SharePoint Yeoman Generator is used to create the SPFX webparts. Installers via kommandoen:
    npm install -g @microsoft/generator-sharepoint
 - SharePoint Online Management Shell https://www.microsoft.com/en-us/download/details.aspx?id=35588
 - PnP PowerShell  https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps (kø Install-Module      SharePointPnPPowerShellOnline)
