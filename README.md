@@ -18,7 +18,7 @@
 - Sikre at App Catalog er oprettet på Office 365 tenant, (Step 1 af https://docs.microsoft.com/en-us/sharepoint/use-app-catalog)
 - Visual Studio 2017 (community version eller større)
 - Visual Studio Code https://code.visualstudio.com/
-- [Node.js](https://nodejs.org/) LTS:  Node is required to setup, build, and run the project.
+- [Node.js](https://nodejs.org/) LTS: Node is required to setup, build, and run the project.
 - [SharePoint Yeoman Generator](https://www.npmjs.com/package/@microsoft/generator-sharepoint) (Version 1.6): The SharePoint Yeoman Generator is used to create the SPFX webparts. Installers via kommandoen:
    npm install -g @microsoft/generator-sharepoint
 - SharePoint Online Management Shell https://www.microsoft.com/en-us/download/details.aspx?id=35588
