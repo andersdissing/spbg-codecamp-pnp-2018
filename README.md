@@ -24,3 +24,5 @@
   `npm install -g yo  @microsoft/generator-sharepoint gulp-cli`
 - SharePoint Online Management Shell https://www.microsoft.com/en-us/download/details.aspx?id=35588
 - PnP PowerShell  https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps (kø Install-Module      SharePointPnPPowerShellOnline)
+
+NVM for windows https://github.com/coreybutler/nvm-windows
