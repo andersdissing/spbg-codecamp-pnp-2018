@@ -135,6 +135,7 @@
               li => this.dumpJson("ListItems", li));
           this.dumpJson("Batch", "Done!");
         });
+      });
     }
     ```
 2. Refresh page in browser
