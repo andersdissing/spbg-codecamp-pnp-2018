@@ -20,6 +20,6 @@
 - Visual Studio Code https://code.visualstudio.com/
 - [Node.js](https://nodejs.org/) LTS: Node is required to setup, build, and run the project.
 - [SharePoint Yeoman Generator](https://www.npmjs.com/package/@microsoft/generator-sharepoint) (Version 1.7): The SharePoint Yeoman Generator is used to create the SPFX webparts. Installers via kommandoen:
-   npm install -g @microsoft/generator-sharepoint
+   npm install -g yo @microsoft/generator-sharepoint
 - SharePoint Online Management Shell https://www.microsoft.com/en-us/download/details.aspx?id=35588
 - PnP PowerShell  https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps (kø Install-Module      SharePointPnPPowerShellOnline)
